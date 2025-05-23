@@ -21,7 +21,7 @@ for i in range(len(unique_list)):
         if unique_list[i] == num_list[j]:
             count += 1
     frequency.append(count)
-    
+
 top_count_frequency = []
 for i in range(len(frequency)):
     count = frequency[i]
@@ -38,8 +38,7 @@ for i in range(len(frequency)):
     
 print(f"""
 고유 숫자 리스트: {unique_list}
-빈도 수 리스트: {frequency}
-""")
+빈도 수 리스트: {frequency}""")
 
 print("\n가장 많이 등장한 숫자 Top 3 (동점 포함)")
 for i in range(len(unique_list)):

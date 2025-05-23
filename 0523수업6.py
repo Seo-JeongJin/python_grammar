@@ -22,4 +22,5 @@ for idx, val in enumerate(bar):
     
 # Unpacking
 pos, kin, sol = [2, 3, 4]
-print(pos, kin, sol)
+print(pos, kin, sol) # 2, 3, 4
+
