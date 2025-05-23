@@ -13,4 +13,4 @@ print(bar[2 : 4]) # [5, 7]
 print(bar[2 : 3]) # [5]
 print(bar[2 : -1]) # 2번째 index부터 -1의 -1번째 index까지(-2) -> [5, 7]
 
-# bar[start(생략시 0) : stop(생략시 -1) : step(생략시 1)]
+# bar[start(생략시 0) :(생략 불가) stop(생략시 -1) :(생략 가능) step(생략시 1)]
