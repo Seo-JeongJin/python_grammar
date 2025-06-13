@@ -1,1 +1,2 @@
-foo = 30
+
+    print(f"Item: {item}")
